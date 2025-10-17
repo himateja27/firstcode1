@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //func wish(){
 //	fmt.Println("have a nice day")
 //}
@@ -185,10 +183,27 @@ func main(){
 		}
 		fmt.Println(i)
 	}*/
-	for i:=0; i<=10; i++{
+	/*for i:=0; i<=10; i++{
 		if i%2==0{
 			continue
 		}
 		fmt.Println(i)
-	}
-}
+	}*/
+	/*arr :=[...] int{10,20,60,80,25,45}
+	arr[0]=100
+	//for i=0; i<=len(arr); i++{
+		//fmt.Print(arr[i])
+		//fmt.Print(arr[5])
+		//fmt.Print(len(arr))
+		for i:=0; i<=len(arr); i++{
+		   fmt.Println(arr[i])
+		}*/
+    /*variable :=[...] int{10,40,20,5,6,9}
+	sort.Ints(variable[:])
+	fmt.Print(variable)*/
+	/*arr :=[...] string{"a","r","e","f"}
+	sort.Strings(arr[:])
+	fmt.Print(arr)*/
+	
+}  
+ 
