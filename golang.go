@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 //func wish(){
 //	fmt.Println("have a nice day")
 //}
@@ -122,7 +120,7 @@ func main(){
 //	 default:
 //		fmt.Print("invalid input")
 //   }
-    var day int
+/*    var day int
 	fmt.Print("enter day number :")
 	fmt.Scanln(&day)
 	switch day {
@@ -134,5 +132,6 @@ func main(){
 	    fmt.Print("weekends")
     default:
 	   fmt.Print("invalid input")
-	}
+	}*/
+	
 }
