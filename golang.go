@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
-
 //func wish(){
 //	fmt.Println("have a nice day")
 //}
@@ -147,11 +142,35 @@ func main(){
 	/*var n int=2001
 	var str string=strconv.Itoa(n)
 	fmt.Print(str)*/
-	var str string="2001bbbb"
+	/*var str string="2001bbbb"
 	var n, err=strconv.Atoi(str)
 	if err==nil{
 		fmt.Println("string to int : ",n)
 	} else {
 		fmt.Println("convert failed : ",err)	
-	}
+	}*/
+	/*var age =17
+	if age>18{
+		fmt.Print("you are eligible for vote")
+	}else{
+		fmt.Print("you are not eligible for work")
+	}*/
+	/*var age=24
+	if age<18{
+		fmt.Print("you are not eligible to driving licince")
+	}else if age>60{
+		fmt.Print("you are not eligible to driving licence")
+	}else{
+		fmt.Print("you are eligible for driving licence")
+	}*/
+	/*var age = 45
+	if age<18{
+		if age>60{
+			fmt.Print("you are not eligible to licence")
+		}else{
+			fmt.Print("you are eligible for vote")
+		}
+	}else{
+		fmt.Print("you are eligible for licence")
+	}*/
 }
