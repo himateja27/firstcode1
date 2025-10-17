@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 //func wish(){
 //	fmt.Println("have a nice day")
 //}
@@ -173,4 +175,20 @@ func main(){
 	}else{
 		fmt.Print("you are eligible for licence")
 	}*/
+	/*for i:=0; i<=10; i++{
+		fmt.Println(i)
+		fmt.Println("hi there")
+	}*/
+	/*for i:=0; i<=10; i++{
+		if i==5{
+			break
+		}
+		fmt.Println(i)
+	}*/
+	for i:=0; i<=10; i++{
+		if i%2==0{
+			continue
+		}
+		fmt.Println(i)
+	}
 }
