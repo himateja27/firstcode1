@@ -5,13 +5,18 @@ import "fmt"
 //func wish(){
 //	fmt.Println("have a nice day")
 //}
-'''func add(a int,b int){
-	fmt.Println(a+b)
-}
-func wish(name string){
-	var message="hello"
-	fmt.Println(message,"good morning",name)
-}'''
+//func add(a int,b int){
+//	fmt.Println(a+b)
+//}
+//func wish(name string){
+//	var message="hello"
+//	fmt.Println(message,"good morning",name)
+//func math(num1 int,num2 int)(int,int,int){
+//	var add=num1+num2
+//	var sub=num1-num2
+//	var mul=num1*num2
+//	return add,sub,mul
+//}
 func main(){
 	//const(
 	//	pie=3.14
@@ -65,10 +70,69 @@ func main(){
 	//b:=20
 	//fmt.Println(a+b)
 	//wish()
-	'''add(10,20)
-	var a="teja"
-	var b="guna"
-	wish(a)
-	wish(b)'''
-	
+	//add(10,20)
+	//var a="teja"
+	//var b="guna"
+	//wish(a)
+	//wish(b)
+//	var a=10
+//	var b=20
+//	var add,sub,mul=math(a,b)
+//	fmt.Println(add,sub,mul)
+ //   var name string
+//	var age int
+//	var salary float32
+//	fmt.Println("before",name,age,salary)
+//	fmt.Println("enter your name : ")
+//	fmt.Scanln(&name)
+//	fmt.Println("enter your age :")
+//	fmt.Scanln(&age)
+//	fmt.Println("enter your salary :")
+//	fmt.Scanln(&salary)
+//	fmt.Println("after",name,age,salary)
+//  var num int
+//	fmt.Println("enter the day number : ")
+//	fmt.Scanln(&num)
+//	switch num%2 {
+//	case 0:
+//		fmt.Println("even number")
+//	case 1:
+//		fmt.Println("odd number")
+//	default:
+//		fmt.Println("invalid input")
+//	}
+//   var day int
+//   fmt.Println("enter day number :")
+//  fmt.Scanln(&day)
+//    switch day{
+//   case 1:
+//	fmt.Println("monday")
+//   case 2:
+//	fmt.Print("tuesday")
+//    case 3:
+//	fmt.Print("wednesday")
+//	 case 4:
+//	fmt.Print("thursday")
+//	 case 5:
+//	fmt.Print("friday")
+//	 case 6:
+//	fmt.Print("saturday")
+//	 case 7:
+//	fmt.Print("sunday")
+//	 default:
+//		fmt.Print("invalid input")
+//   }
+    var day int
+	fmt.Print("enter day number :")
+	fmt.Scanln(&day)
+	switch day {
+	case 1,3,5:
+		fmt.Print("odd weekdays")
+	case 2,4:
+        fmt.Println("even weekdays")
+    case 6,7:
+	    fmt.Print("weekends")
+    default:
+	   fmt.Print("invalid input")
+	}
 }
