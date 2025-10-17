@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"strconv"
+)
+
 //func wish(){
 //	fmt.Println("have a nice day")
 //}
@@ -133,5 +138,20 @@ func main(){
     default:
 	   fmt.Print("invalid input")
 	}*/
-	
+	/*var i int=10
+	var j float32=float32(i)
+	fmt.Print(j+0.56)*/
+	/*var a float32=45.98
+	var b int=int(a)
+	fmt.Print(b)*/
+	/*var n int=2001
+	var str string=strconv.Itoa(n)
+	fmt.Print(str)*/
+	var str string="2001bbbb"
+	var n, err=strconv.Atoi(str)
+	if err==nil{
+		fmt.Println("string to int : ",n)
+	} else {
+		fmt.Println("convert failed : ",err)	
+	}
 }
