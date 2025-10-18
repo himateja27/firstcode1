@@ -237,6 +237,13 @@ func main(){
    porche.cc=2000
    porche.year=2025
    fmt.Println(porche.model)*/
-   
+   /*var myMap = map[string]string{
+	"name":"teja","location":"hyd","channel":"youtube"}
+	//fmt.Print(myMap["name"])
+	fmt.Print(len(myMap))
+	for key,value := range myMap{
+        fmt.Println("key",key)
+		fmt.Println("value",value)
+	}*/
 }
  
