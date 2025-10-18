@@ -204,6 +204,16 @@ func main(){
 	/*arr :=[...] string{"a","r","e","f"}
 	sort.Strings(arr[:])
 	fmt.Print(arr)*/
-	
+    /*var s1 =[] int{100,200,300,400,500,600}
+	s1=append(s1,700,800)go 
+	fmt.Println(s1)	
+	//s1=append(s1[0:2],s1[3: ]...)
+	//fmt.Println(s1)
+	//for i:=0; i<=len(s1);i++{
+	//	fmt.Println(s1[i])
+	//}
+	for index,value:=range s1{
+		fmt.Println(index,value)
+	}*/
 }  
  
