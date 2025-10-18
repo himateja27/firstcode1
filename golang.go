@@ -15,6 +15,11 @@ package main
 //	var mul=num1*num2
 //	return add,sub,mul
 //}
+/*type car struct{
+	model string;
+	cc int;
+	year int;
+}*/
 func main(){
 	//const(
 	//	pie=3.14
@@ -205,7 +210,7 @@ func main(){
 	sort.Strings(arr[:])
 	fmt.Print(arr)*/
     /*var s1 =[] int{100,200,300,400,500,600}
-	s1=append(s1,700,800)go 
+	s1=append(s1,700,800)
 	fmt.Println(s1)	
 	//s1=append(s1[0:2],s1[3: ]...)
 	//fmt.Println(s1)
@@ -215,5 +220,23 @@ func main(){
 	for index,value:=range s1{
 		fmt.Println(index,value)
 	}*/
-}  
+	/*var s1 = make([]int,5,10)
+	fmt.Print(s1,len(s1),cap(s1))
+	s1=append(s1,1,2,3,4,5,6,7,8,9,11,12,13,14)
+	fmt.Print(s1,len(s1),cap(s1))*/
+    /*var bmw car;
+	bmw.model="m5"
+	bmw.cc=2000
+	bmw.year=2025
+	bmw.model="m5"
+   fmt.Println(bmw.model)
+   fmt.Println(bmw.cc)
+   fmt.Println(bmw.year)
+   var porche car;
+   porche.model="911"
+   porche.cc=2000
+   porche.year=2025
+   fmt.Println(porche.model)*/
+   
+}
  
