@@ -25,7 +25,7 @@ def withdraw(acc_no,amount):
         data='update account set balance=balance-%s where acc_no=%s'
         cur.execute(data,(amount,acc_no))
         con.commit()
-        print(f"{amount} amount withdraw in {acc_no} number")
+        print(f"{amount} rupees withdraw in {acc_no} account")
     else:
         print("insufficent balance")
     cur.close()
@@ -70,8 +70,3 @@ def main():
 if __name__=="__main__":
     main()
 
-print("comment")
-print("hello")
-print("hi")
-print("this is github")
-print("print")
